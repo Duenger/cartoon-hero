@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: seagreen;
+	text-align: center;
+	border-bottom: 20px solid black;
+}
+
+	header img{
+		border-radius: 150px;
+		width: 300px;
+		border: 5px solid black;
+	}
+
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 0;
+}
+
+p{
+	margin: 0;
+}
+
+main{
+	padding-left: 20px;
+	font-size: 25px;
+	max-width: 800px;
+}
+
+	main p, ol, ul{
+		margin-top: 4px;
+	}
+
+	main img{
+		max-width: 100%;
+	}
+
+.caption{
+	color: grey;
+	font-style: italic;
+}
+
+a{
+	color: seagreen;
+}
+
+a:hover{
+	color: black;
+}
+
+footer{
+	background-color: seagreen;	
+	padding: 30px;
+}
